@@ -22,8 +22,7 @@ describe 'crazy stuff on strings' do
     expect(reverse_upcase_noLTA("qwertyuiopasdfghjkl;zxcvbn"))
       .to eq("NBVCXZ;KJHGFDSPOIUYREWQ")
   end
-end
-
+endcd 
 
 describe '42 finder' do
   # array_42 takes an array as parameter and returns:
