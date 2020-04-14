@@ -16,6 +16,17 @@ def sum(x)
   end
 end
 
+
+
+# def sum(arr)
+#   if arr.length == 0
+#     return 0
+#   else
+#     return arr.inject(:+)
+#   end
+# end
+
+
 def multiply(a,b)
   a * b
 end
@@ -28,3 +39,11 @@ end
 def factorial(x)
   (1..x).reduce(:*) || 1
 end
+
+# def factorial(n)
+#   if n < 2
+#     return 1
+#   else 
+#     return n*factorial(n-1)
+#   end
+# end

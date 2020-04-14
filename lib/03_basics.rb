@@ -14,6 +14,18 @@ def who_is_bigger(a, b, c)
     end
 end
 
+# def who_is_bigger(a,b,c)
+#   if [a,b,c].include?(nil)
+#     return "nil detected"
+#   elsif ([a,b,c].max) == a
+#     return "a is bigger"
+#   elsif ([a,b,c].max) == b
+#     return "b is bigger"
+#   elsif ([a,b,c].max) == c
+#     return "c is bigger"
+#   end
+# end
+
 def reverse_upcase_noLTA(str)
 return str.reverse.upcase.delete('LTA')
 end
@@ -32,3 +44,11 @@ def magic_array(x)
     x3 = x2.uniq
     return x3
 end
+
+# def magic_array(a)
+#   return a.flatten.map{|e| 2*e if e%3!=0}.compact.uniq.sort
+# end
+
+# def magic_array(a)
+#   return a.flatten.map{|e| 2*e if e%3!=0}.compact.uniq.sort
+# end
